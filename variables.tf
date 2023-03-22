@@ -47,8 +47,3 @@ variable "prefix" {
   description = "The name of the Virtual Machine to create."
   default     = "testazure"
 }
-
-variable "tags" {
-  description = "tags for the resource"
-  nullable = true
-}

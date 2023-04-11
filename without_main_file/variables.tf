@@ -48,4 +48,9 @@ variable "prefix" {
   default     = "testazure"
 }
 
+variable "tags" {
+  description = "tags for the resource"
+  default = {"tagkey":"tagvalue"}
+}
+
 

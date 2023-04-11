@@ -64,5 +64,6 @@ resource "azurerm_virtual_machine" "main" {
     disable_password_authentication = false
   }
 
-  tags = {"qa":"team"}
+  tags = "${var.tags}"
+
 }

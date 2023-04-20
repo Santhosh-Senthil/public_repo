@@ -54,3 +54,8 @@ variable "tags" {
   nullable = true
 }
 
+variable "test_boolean" {
+  description = "Testing the boolean issue"
+  deafult     = true
+  type        = bool
+}
